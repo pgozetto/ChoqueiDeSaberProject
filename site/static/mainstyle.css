@@ -1,0 +1,131 @@
+body {
+    background: linear-gradient(#016dc0, #025391);
+    overflow-x: hidden;
+    overflow-x: hidden;
+}
+
+#mainsection {
+    padding: 1.5em;
+    box-shadow: 5px 5px 25px 2px #000000ad;
+    margin: auto;
+    width: 50em;
+    max-height: 36em;
+    height: 30em;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+
+.titles {
+    text-shadow: 2px 2px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    min-height: 1.5em;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1em;
+    color: white;
+    background-color: #004981;
+}
+
+#edicoes {
+    text-align: center;
+    box-shadow: 0px 1px 10px 1px black;
+    font-size: 1.5em;
+    padding-right: 20px;
+    width: 32em;
+    height: 15em;
+    background-color: rgb(245, 245, 245);
+    overflow-y: scroll;
+    max-height: 19.5em;
+
+}
+
+img {
+    height: 16.7em;
+    display: block;
+    margin: auto;
+    padding-bottom: 1.5em;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #004981;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 25px;
+    
+}
+
+#jornalsection {
+    padding: 1.5em;
+    box-shadow: 5px 5px 25px 2px #000000ad;
+    margin: auto;
+    width: 50em;
+    height: 61.5em;
+    background-color: white;
+    border-radius: 6px;
+    justify-content: center;
+    margin-bottom: 2.5em;
+}
+
+embed {
+    border-radius: 10px;
+    margin-top: 0.5em;
+    height: 60em;
+    width: 50em;
+}
+
+@media (max-width: 800px) {
+    img {
+        height: 12em;
+        padding-bottom: 1.5em;
+    }
+    #mainsection {
+        width: 25em;
+        height: 40em;
+    }
+    #edicoes {
+        width: 16em;
+        height: 17em;
+    }
+    #jornalsection {
+        width: 40em;
+        height: 50em;
+    }
+    embed {
+        height: 49em;
+        width: 40em;
+    }
+    
+}
+
+@media (max-height: 800px) {
+    img {
+        height: 14em;
+        padding-bottom: 1.5em;
+    }
+    #mainsection {
+        margin-bottom: 3.7em;
+        height: 20em;
+    }
+    #edicoes {
+        height: 9em;
+    }
+    #jornalsection {
+        margin-bottom: 3.7em;
+    }
+}
+

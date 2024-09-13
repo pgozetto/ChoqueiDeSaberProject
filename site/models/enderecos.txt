@@ -1,0 +1,2 @@
+principal (hub) = https://www.ensinosaber.com.br/site/hubjornal
+jornais = https://www.ensinosaber.com.br/site/hubjornal/jornal<int:>
